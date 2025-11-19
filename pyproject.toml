@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fedora-desktop-cleaner"
+version = "1.0.0"
+authors = [
+    {name = "Your Name", email = "your.email@example.com"},
+]
+description = "Clean duplicate desktop applications from Fedora Linux 'Open With' dialogs"
+readme = "README.md"
+license = {text = "GPL-3.0-or-later"}
+requires-python = ">=3.6"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: End Users/Desktop", 
+    "Topic :: System :: Systems Administration",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10", 
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: POSIX :: Linux",
+]
+keywords = ["fedora", "linux", "desktop", "applications", "duplicates", "gnome", "kde"]
+
+[project.urls]
+"Homepage" = "https://github.com/yourusername/fedora-desktop-cleaner"
+"Bug Reports" = "https://github.com/yourusername/fedora-desktop-cleaner/issues"  
+"Source" = "https://github.com/yourusername/fedora-desktop-cleaner"
+"Documentation" = "https://github.com/yourusername/fedora-desktop-cleaner#readme"
+
+[project.scripts]
+fedora-desktop-cleaner = "fedora_desktop_cleaner.cli:main"
+
+[tool.setuptools.packages.find]
+exclude = ["tests*"]
