@@ -204,12 +204,6 @@ pip install -e .
 - [ ] Automatic scheduled cleanup
 - [ ] Integration with system package managers
 
-## 🆘 Support
-
-- **Issues**: [GitHub Issues](https://github.com/yourusername/fedora-desktop-cleaner/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/fedora-desktop-cleaner/discussions)
-- **Email**: your.email@example.com
-
 ## 📄 License
 
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
@@ -219,12 +213,6 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 - Inspired by the frustration of cluttered "Open With" dialogs
 - Built for the Fedora Linux community
 - Thanks to all users who report issues and suggest improvements
-
-## 🔗 Related Projects
-
-- [MenuLibre](https://github.com/bluesabre/menulibre) - Menu editor for Linux
-- [Alacarte](https://gitlab.gnome.org/GNOME/alacarte) - GNOME menu editor
-- [Desktop Entry Specification](https://specifications.freedesktop.org/desktop-entry-spec/) - FreeDesktop.org spec
 
 ---
 
